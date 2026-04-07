@@ -12,6 +12,16 @@ The objective of this project is to develop a machine learning-based system that
 
 ---
 
+## Objectives
+
+* Predict probability of loan default using machine learning
+* Handle imbalanced data using SMOTE
+* Optimize model for detecting high-risk customers
+* Provide interpretable predictions using SHAP
+* Develop a user-friendly interface for decision support
+
+---
+
 ## Features
 
 * Predicts probability of loan default
