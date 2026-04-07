@@ -68,7 +68,7 @@ The model is trained on the Default of Credit Card Clients Dataset, which contai
 
 > Note: Feature selection was performed to retain only the most relevant financial behavior variables for modeling.
 
-> Note: The dataset is not included in this repository Please download it from the provided Kaggle link and place it inside the data/raw/ directory before running the project. 
+> Note: The dataset is not included in this repository Please download it from the provided Kaggle link and place it inside the `data/raw/` directory before running the project. 
 
 ---
 
@@ -163,12 +163,23 @@ credit-risk-project/
 
 ---
 
+## Pretrained Model
+
+A pre-trained model (final-model.pkl) is included in the repository for quick testing and demonstration purposes.
+
+Users can directly run the Streamlit application without retraining the model.
+
+> Note: The model was trained using the dataset referenced above. To retrain the model, follow the notebooks provided in the `notebooks/` directory.
+
+--
+
 ## Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+> The app uses a pre-trained model, so no training step is required.
 
 ---
 
