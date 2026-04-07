@@ -2,6 +2,8 @@
 
 An end-to-end machine learning system that predicts loan default risk using financial behavior data. The project integrates a credit scoring mechanism, threshold-based decisioning, and Explainable AI (SHAP) to provide interpretable predictions through a Streamlit web application.
 
+> Designed to simulate real-world credit risk assessment used by financial institutions.
+
 ---
 
 ## Problem Statement
@@ -47,7 +49,7 @@ The objective of this project is to develop a machine learning-based system that
 
 ## Model Highlights
 
-* ROC-AUC: ~0.74
+* ROC-AUC: ~0.74 (good discriminative performance)
 * Optimized for recall of default cases (~65%)
 * Uses SMOTE to handle class imbalance
 * Threshold tuning applied for business-oriented decisions
@@ -163,6 +165,11 @@ streamlit run app.py
 
 ---
 
+## Why This Project Matters
+
+This project demonstrates how machine learning can support financial decision-making by balancing risk detection with interpretability. It reflects real-world challenges such as imbalanced data, trade-offs between accuracy and recall, and the need for transparent AI systems.
+
+---
 ## Conclusion
 
 This project demonstrates a practical approach to credit risk modeling by combining machine learning with explainability and business logic. It highlights the importance of balancing model performance with interpretability and real-world applicability.
