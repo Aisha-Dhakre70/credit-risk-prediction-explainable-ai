@@ -18,9 +18,3 @@ def loan_decision(score):
         return "Review"
     else:
         return "Reject"
-
-"""
-credit score ranging from 300 to 850. This transformation allows easier understanding of risk levels. Based on the score, a decision
-system was implemented to categorize loan applications into approval, review, or rejection, making the system more practical and
-user-friendly.
-"""
