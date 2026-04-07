@@ -90,7 +90,7 @@ This makes the model more transparent and user-friendly.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * The model may capture some bias from training data.
 * Age has low direct correlation but contributes through feature interactions.
