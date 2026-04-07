@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # LOAD SCALER
-scaler = joblib.load("C:/Users/User/OneDrive/Desktop/Semester - 8/credit-risk-project/bin/scaler.pkl")
+scaler = joblib.load("../bin/scaler.pkl")
 
 def preprocess_input(LIMIT_BAL, AGE, PAY_0, PAY_2, PAY_3, TOTAL_BILL, TOTAL_PAY):
 
