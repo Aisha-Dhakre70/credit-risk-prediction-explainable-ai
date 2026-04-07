@@ -169,7 +169,7 @@ A pre-trained model (final-model.pkl) is included in the repository for quick te
 
 Users can directly run the Streamlit application without retraining the model.
 
-> Note: The model was trained using the dataset referenced above. To retrain the model, follow the notebooks provided in the `notebooks/` directory.
+> Note: The model was trained using the dataset referenced above. To retrain the model, follow the notebooks provided in the `notebooks/` directory in this order: `inspection_and_preprocessing.ipnyb` < `feature_selection.ipnyb` < `model.ipnyb` < `explainability.ipnyb`
 
 --
 
