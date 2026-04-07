@@ -7,7 +7,7 @@ from src.preprocessing_pipeline import preprocess_input
 from src.explanation import generate_explanation
 
 # LOAD MODEL
-model = joblib.load("C:/Users/User/OneDrive/Desktop/Semester - 8/credit-risk-project/bin/models/final-model.pkl")
+model = joblib.load("bin/models/final-model.pkl")
 
 # SHAP EXPLAINER
 explainer = shap.TreeExplainer(model)
