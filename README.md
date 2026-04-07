@@ -117,6 +117,8 @@ This makes the model more transparent and user-friendly.
 credit-risk-project/
 │
 ├── data/
+│   ├── raw/
+│   ├── processed/
 ├── bin/
 │   ├── models/
 ├── notebooks/
