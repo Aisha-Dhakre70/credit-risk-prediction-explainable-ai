@@ -47,6 +47,29 @@ The objective of this project is to develop a machine learning-based system that
 
 ---
 
+## Dataset
+
+The model is trained on the Default of Credit Card Clients Dataset, which contains financial and payment history information of credit card users in Taiwan (April 2005 – September 2005).
+
+### Key Features:
+- Credit limit (LIMIT_BAL)
+- Demographic information (AGE, SEX, EDUCATION, MARRIAGE)
+- Payment history (PAY_0 to PAY_6)
+- Bill statements (BILL_AMT1 to BILL_AMT6)
+- Previous payments (PAY_AMT1 to PAY_AMT6)
+
+### Target Variable:
+- default.payment.next.month
+  (1 = Default, 0 = No Default)
+
+### Source:
+- UCI Machine Learning Repository
+- Available via [Kaggle](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+
+> Note: Feature selection was performed to retain only the most relevant financial behavior variables for modeling.
+
+---
+
 ## Model Highlights
 
 * ROC-AUC: ~0.74 (good discriminative performance)
