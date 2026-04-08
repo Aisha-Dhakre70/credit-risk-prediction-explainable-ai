@@ -106,14 +106,59 @@ The model uses key financial behavior features:
 
 ## Explainable AI
 
-SHAP (SHapley Additive Explanations) is used to interpret model predictions.
+This project uses SHAP (SHapley Additive Explanations) to interpret model predictions.
 
-Instead of visual plots, the system converts SHAP values into human-readable explanations such as:
+SHAP values are converted into human-readable explanations instead of only visual plots, making the system more accessible to non-technical users.
 
-* “Recent payment delay increases the risk of default”
-* “Higher repayment amount reduces default risk”
+Example:
+- "Recent payment delay increases the risk of default"
+- "Higher repayment amount reduces default risk"
 
-This makes the model more transparent and user-friendly.
+This improves transparency and trust in model decisions.
+
+---
+
+## Key Insights
+
+- Customers with recent payment delays show higher default risk
+- Higher repayment amounts are associated with lower default probability
+- The model focuses on financial behavior features, excluding demographic attributes to reduce bias
+
+---
+
+## Bias and Fairness Consideration
+
+To reduce the risk of biased predictions, demographic features such as SEX, EDUCATION, and MARRIAGE were intentionally excluded from the model.
+
+The model relies only on financial behavior features such as credit limit (LIMIT_BAL), recent repayment history (PAY_0, PAY_2, PAY_3), and aggregated financial indicators (TOTAL_PAY, TOTAL_BILL), ensuring that predictions are driven by financial activity rather than sensitive personal attributes.
+
+This aligns with fair lending practices and improves the ethical reliability of the system.
+
+---
+
+## Business Impact
+
+This system supports financial decision-making by balancing risk detection and business growth.
+
+- Helps reduce financial losses by identifying high-risk customers
+- Enables flexible decision policies using threshold-based classification
+- Improves transparency using explainable AI
+
+In real-world applications, this can:
+- Reduce loan default rates
+- Improve efficiency in loan approvals
+- Assist analysts in risk evaluation
+
+---
+
+## Risk Consideration
+
+Different prediction errors have different business impacts:
+
+- False Negatives: Approving risky customers → financial loss
+- False Positives: Rejecting good customers → lost opportunity
+
+The model is optimized for higher recall to minimize high-risk approvals.
 
 ---
 
