@@ -188,18 +188,21 @@ credit-risk-project/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
+│   └── processed/
+│
 ├── bin/
-│   ├── models/
+│   └── models/
+│
 ├── notebooks/
 │   ├── inspection_and_preprocessing.ipnyb
 │   ├── feature_selection.ipnyb
 │   ├── model.ipnyb
-│   ├── explainability.ipnyb
+│   └── explainability.ipnyb
+│
 ├── src/
 │   ├── preprocessing_pipeling.py
 │   ├── scoring.py
-│   ├── explainability.py
+│   └── explainability.py
 │
 ├── app.py
 ├── requirements.txt
