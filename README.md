@@ -90,7 +90,7 @@ The model uses key financial behavior features:
 * Credit Limit (LIMIT_BAL)
 * Total Repayment Amount (TOTAL_PAY)
 * Recent Payment History (PAY_0, PAY_2, PAY_3)
-* Toal Bill Amount (TOTAL_BILL)
+* Total Bill Amount (TOTAL_BILL)
 * Age
 
 ---
@@ -200,7 +200,7 @@ credit-risk-project/
 │   └── explainability.ipnyb
 │
 ├── src/
-│   ├── preprocessing_pipeling.py
+│   ├── preprocessing_pipeline.py
 │   ├── scoring.py
 │   └── explainability.py
 │
